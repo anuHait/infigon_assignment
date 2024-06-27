@@ -10,12 +10,12 @@ const Navbar = () => {
   return (
     <>
       {/* Desktop */}
-      <div className='fixed p-4 z-20 hidden md:flex md:flex-row items-center justify-between w-full bg-indigo-950 bg-opacity-50'>
+      <div className=' p-4 z-20 hidden md:flex md:flex-row items-center justify-between w-full bg-[#051139]'>
         <div className='flex flex-row items-center justify-start gap-3 font-bold text-white ml-4'>
           <Image src='/assets/logo.png' width={40} height={40} alt="image"/>
           <p className='text-2xl'>Orinix</p>
         </div>
-        <div className='flex flex-row gap-2'>
+        <div className='flex flex-row gap-3'>
           <p>Homepage</p>
           <p>Features</p>
           <p>Use Cases</p>
@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile */}
-      <div className={`fixed p-3 flex flex-row md:hidden items-center justify-between w-full z-50 bg-indigo-950 bg-opacity-50`}>
+      <div className={` p-3 flex flex-row md:hidden items-center justify-between w-full z-50 bg-[#051139] `}>
         {isOpen ? (
           <ImCross onClick={() => setIsOpen(!isOpen)} className='text-xl text-white' />
         ) : (
