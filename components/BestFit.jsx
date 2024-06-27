@@ -2,7 +2,7 @@ import React from "react";
 import Video from "next-video";
 import getStarted from "/videos/get-started.mp4";
 import Image from "next/image";
-
+import vid from "/videos/vid.mp4";
 const BestFit = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-[#0d1849] p-12 gap-10 relative">
@@ -19,7 +19,7 @@ const BestFit = () => {
       </p>
       <div className="w-full max-w-[1000px] aspect-video rounded-lg overflow-hidden shadow-xl shadow-gray-900">
         <Video
-          src={getStarted}
+          src={vid}
           className="w-full h-full"
         />
       </div>
