@@ -3,7 +3,7 @@ import { IoStar } from "react-icons/io5";
 import Image from "next/image";
 const PeopleCard = ({ image, name, content }) => {
   return (
-    <div className="p-6 bg-gray-900 rounded-lg flex flex-col gap-3 items-start justify-start w-fit md:w-[300px] xl:w-[400px]">
+    <div className="p-6 bg-gray-900 rounded-lg flex flex-col gap-3 items-start justify-start w-fit lg:w-[300px] xl:w-[400px]">
       <div className="flex flex-row items-center justify-start gap-2 w-full">
         <Image
           src={image}
