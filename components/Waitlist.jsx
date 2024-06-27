@@ -3,7 +3,7 @@ import Image from "next/image";
 function Waitlist() {
   return (
     <div className="flex p-8 bg-[#051139] w-full h-full items-center justify-center">
-      <div className="bg-[#515DEF] w-[88%] p-6 flex flex-row gap-6 rounded-3xl">
+      <div className="bg-[#515DEF] w-[88%] p-6 flex flex-col-reverse sm:flex-row gap-6 rounded-3xl items-center justify-between">
         <div className="flex flex-col gap-3">
           <h1 className="text-[16px] md:text-[20px] lg:text-[28px] font-bold font-['Inter']">
             Explore Free Version now!
@@ -21,7 +21,7 @@ function Waitlist() {
             </button>
           </div>
         </div>
-        
+        <Image src="/assets/work.png" height={250} width={250} alt="image"/>
       </div>
     </div>
   );
