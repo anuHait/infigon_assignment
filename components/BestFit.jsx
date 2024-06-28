@@ -1,8 +1,9 @@
 import React from "react";
-import Video from "next-video";
+import NextVideo from "next-video";
 import getStarted from "/videos/get-started.mp4";
 import Image from "next/image";
-import vid from "/videos/vid.mp4";
+import vid from "@/videos/vid.mp4";
+import demo from "@/videos/demo.mp4";
 const BestFit = () => {
   console.log(vid);
   return (
@@ -19,8 +20,8 @@ const BestFit = () => {
         Watch 1 min videos to learn about Orinix
       </p>
       <div className="w-full max-w-[1000px] aspect-video rounded-[36px] overflow-hidden shadow-xl shadow-gray-900">
-        <Video
-          src={vid}
+        <NextVideo
+          src={demo}
           className="w-full h-full"
         />
       </div>

@@ -40,7 +40,7 @@ const Landing = () => {
           <div className="hidden sm:block absolute -z-5 left-0 top-0 rounded-[100%] w-[380px] h-[240px] bg-[#9C08FF] blur-[100px] "></div>
           <div className="hidden lg:block absolute -z-5 -right-0 -top-10 rounded-[100%] w-[400px] h-[440px] bg-[#1E50FF] blur-[120px] "></div>
           <div className="relative z-10">
-            <Image src="/assets/landing.png" width={800} height={400} />
+            <Image src="/assets/landing.png" width={800} height={400} alt="image"/>
           </div>   
           
         </div>

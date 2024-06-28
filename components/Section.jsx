@@ -7,7 +7,7 @@ import { HiMiniShoppingBag } from "react-icons/hi2";
 const Section = () => {
   return (
     <div className="bg-[#051139] w-full h-full flex flex-col lg:flex-row items-center justify-center p-28 gap-16 ">
-      <Image src="/assets/landing2.png" width={500} height={500} />
+      <Image src="/assets/landing2.png" width={500} height={500} alt="image"/>
       <div className="flex flex-col gap-2 items-start justify-start">
         <div className="flex flex-col ">
           <div className="text-[22px] md:text-[28px] lg:text-[40px] font-semibold font-clash text-white">

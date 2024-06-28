@@ -12,6 +12,7 @@ const PeopleCard = ({ image, name, content }) => {
           width={50}
           height={50}
           className="object-cover "
+         
         /></div>
         <div className="flex flex-col gap-1">
           <h1 className="font-semibold text-white">{name}</h1>
