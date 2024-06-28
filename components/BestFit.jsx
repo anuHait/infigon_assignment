@@ -17,7 +17,7 @@ const BestFit = () => {
       <p className="text-md text-gray-200 font-light">
         Watch 1 min videos to learn about Orinix
       </p>
-      <div className="w-full max-w-[1000px] aspect-video rounded-lg overflow-hidden shadow-xl shadow-gray-900">
+      <div className="w-full max-w-[1000px] aspect-video rounded-[36px] overflow-hidden shadow-xl shadow-gray-900">
         <Video
           src={vid}
           className="w-full h-full"

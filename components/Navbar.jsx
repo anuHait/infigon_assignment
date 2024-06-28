@@ -16,13 +16,13 @@ const Navbar = () => {
           <p className='text-2xl'>Orinix</p>
         </div>
         <div className='flex flex-row gap-3'>
-          <p>Homepage</p>
-          <p>Features</p>
-          <p>Use Cases</p>
-          <p>Pricing</p>
-          <p>Blog</p>
+          <p className='text-sm'>Homepage</p>
+          <p className='text-sm'>Features</p>
+          <p className='text-sm'>Use Cases</p>
+          <p className='text-sm'>Pricing</p>
+          <p className='text-sm'>Blog</p>
         </div>
-        <button className='px-4 text-white font-semibold bg-[#6A65FF] py-3 rounded-lg mr-5'>Join Waitlist</button>
+        <button className='px-3 text-white font-semibold bg-[#6A65FF] py-2 rounded-lg mr-5'>Join Waitlist</button>
       </div>
 
       {/* Mobile */}
@@ -36,7 +36,7 @@ const Navbar = () => {
           <Image src='/assets/logo.png' width={20} height={20} alt="image"/>
           <p className='text-xl'>Orinix</p>
         </div>
-        <button className="bg-[#6A65FF] text-white font-semibold py-2 px-4 text-sm rounded-lg">Join Waitlist</button>
+        <button className="bg-[#6A65FF] text-white font-semibold py-2 px-3 text-sm rounded-lg">Join Waitlist</button>
       </div>
 
       {isOpen && (
