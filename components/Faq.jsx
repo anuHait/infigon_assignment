@@ -4,7 +4,7 @@ function Faq() {
   return (
     <div className='bg-[#0d1849] w-full h-full text-white flex flex-col items-center justify-center p-10 md:p-16 gap-10'>
       <div className='flex flex-col gap-2 items-center justify-center'>
-        <div className="text-[22px] md:text-[28px] lg:text-[40px] font-semibold font-['Inter']">
+        <div className="text-[22px] md:text-[28px] lg:text-[40px] font-semibold font-clash">
           Frequently Asked Questions
         </div>
         <p className='text-slate-200 text-xs md:text-md lg:text-lg font-light'>

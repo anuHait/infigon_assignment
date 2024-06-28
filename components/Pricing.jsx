@@ -5,7 +5,7 @@ function Pricing() {
   return (
     <div className="flex flex-col gap-6 p-8 bg-[#051139] w-full h-full items-center justify-center">
       <div className="flex flex-col gap-2 items-center justify-center">
-        <div className="text-[22px] md:text-[28px] lg:text-[40px] font-semibold font-['Inter'] text-white">
+        <div className="text-[22px] md:text-[28px] lg:text-[40px] font-semibold font-clash text-white">
           Pricing Plans
         </div>
         <div className="flex flex-col items-center font-light leading-relaxed text-center text-slate-200 text-xs md:text-md ">

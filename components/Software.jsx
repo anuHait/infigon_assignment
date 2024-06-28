@@ -23,10 +23,10 @@ function Software() {
         <PiStarFourFill className="text-gray-100 text-2xl absolute p-1.5 rounded-full shadow-md bg-gray-200 bg-opacity-10 -left-16" />
         <PiStarFourFill className="text-gray-200 text-2xl absolute p-1.5 rounded-full shadow-md bg-gray-200 bg-opacity-10 top-2 -right-16" />
 
-        <p className="text-white font-bold text-[22px] md:text-[28px] lg:text-[40px]">
+        <p className="text-white font-bold font-clash text-[22px] md:text-[28px] lg:text-[40px]">
           Useful Software
         </p>
-        <p className="text-white font-bold text-[22px] md:text-[28px] lg:text-[40px]">
+        <p className="text-white font-bold font-clash text-[22px] md:text-[28px] lg:text-[40px]">
           that We assist.
         </p>
       </div>

@@ -5,13 +5,14 @@ const PeopleCard = ({ image, name, content }) => {
   return (
     <div className="p-6 bg-gray-900 rounded-lg flex flex-col gap-3 items-start justify-start w-fit lg:w-[300px] xl:w-[400px]">
       <div className="flex flex-row items-center justify-start gap-2 w-full">
+      <div className="rounded-[100%] ">
         <Image
           src={image}
           alt={name}
           width={50}
           height={50}
-          className="rounded-full"
-        />
+          className="object-cover "
+        /></div>
         <div className="flex flex-col gap-1">
           <h1 className="font-semibold text-white">{name}</h1>
           <p className="font-light text-gray-200">Community</p>

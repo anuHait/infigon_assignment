@@ -13,7 +13,7 @@ function Testimonial() {
     <div className="absolute -z-1  right-12 top-10 rounded-[100%] w-[300px] h-[300px]  bg-gray-400 blur-[160px]"></div>
 
 
-      <div className="text-[20px] md:text-[24px] lg:text-[32px] font-semibold font-['Inter'] mt-10">
+      <div className="text-[20px] md:text-[24px] lg:text-[32px] font-semibold font-clash mt-10">
         What people are saying about Circle
       </div>
 
@@ -31,7 +31,16 @@ function Testimonial() {
         >
           <SwiperSlide >
             <PeopleCard
-              image="/assets/doggo.png"
+              image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595358/man2_arpcmz.jpg"
+              name={"John Doe"}
+              content={
+                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
+              }
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <PeopleCard
+              image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595297/Ellipse_2_1_tc9dmv.png"
               name={"Leslie Alexander"}
               content={
                 "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
@@ -40,8 +49,8 @@ function Testimonial() {
           </SwiperSlide>
           <SwiperSlide>
             <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
+              image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595769/Ellipse_2_h3s3gj.png"
+              name={"Dannie Russellr"}
               content={
                 "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
               }
@@ -49,40 +58,23 @@ function Testimonial() {
           </SwiperSlide>
           <SwiperSlide>
             <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
+              image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595902/Ellipse_2_2_ruiot6.png"
+              name={"Darell Steward"}
               content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
+                "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
               }
             />
           </SwiperSlide>
           <SwiperSlide>
             <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
+              image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595297/Ellipse_2_1_tc9dmv.png"
+              name={"Paul Shaw"}
               content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
+                "Making your own mobile app is currently pretty easy for me. Thank you, with the aid of Circle assistive technologies!"
               }
             />
           </SwiperSlide>
-          <SwiperSlide>
-            <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
-              content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
-              }
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
-              content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
-              }
-            />
-          </SwiperSlide>
+          
         </Swiper>
       </div>
 
@@ -96,60 +88,51 @@ function Testimonial() {
           autoplay={true}
           className="w-full items-center justify-center "
         >
-          <SwiperSlide >
-            <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
-              content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
-              }
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
-              content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
-              }
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
-              content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
-              }
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
-              content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
-              }
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
-              content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
-              }
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <PeopleCard
-              image="/assets/doggo.png"
-              name={"Leslie Alexander"}
-              content={
-                "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
-              }
-            />
-          </SwiperSlide>
+        <SwiperSlide >
+        <PeopleCard
+          image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595358/man2_arpcmz.jpg"
+          name={"John Doe"}
+          content={
+            "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
+          }
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <PeopleCard
+          image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595297/Ellipse_2_1_tc9dmv.png"
+          name={"Leslie Alexander"}
+          content={
+            "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
+          }
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <PeopleCard
+          image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595769/Ellipse_2_h3s3gj.png"
+          name={"Dannie Russellr"}
+          content={
+            "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?"
+          }
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <PeopleCard
+          image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595902/Ellipse_2_2_ruiot6.png"
+          name={"Darell Steward"}
+          content={
+            "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit."
+          }
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <PeopleCard
+          image="https://res.cloudinary.com/dcugof3zo/image/upload/v1719595297/Ellipse_2_1_tc9dmv.png"
+          name={"Paul Shaw"}
+          content={
+            "Making your own mobile app is currently pretty easy for me. Thank you, with the aid of Circle assistive technologies!"
+          }
+        />
+      </SwiperSlide>
         </Swiper>
       </div>
     </div>

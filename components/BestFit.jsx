@@ -4,17 +4,18 @@ import getStarted from "/videos/get-started.mp4";
 import Image from "next/image";
 import vid from "/videos/vid.mp4";
 const BestFit = () => {
+  console.log(vid);
   return (
     <div className="flex flex-col items-center justify-center bg-[#0d1849] p-12 gap-10 relative">
       <div className="flex flex-col items-center justify-center">
-        <p className="text-white font-bold text-[22px] md:text-[28px] lg:text-[40px]">
+        <p className="text-white font-clash font-bold text-[22px] md:text-[28px] lg:text-[40px]">
           Why Orinix would be
         </p>
-        <p className="text-white font-bold text-[22px] md:text-[28px] lg:text-[40px]">
+        <p className="text-white  font-clash font-bold text-[22px] md:text-[28px] lg:text-[40px]">
           your best fit?
         </p>
       </div>
-      <p className="text-md text-gray-200 font-light">
+      <p className="text-md text-gray-200 font-light font-clash">
         Watch 1 min videos to learn about Orinix
       </p>
       <div className="w-full max-w-[1000px] aspect-video rounded-[36px] overflow-hidden shadow-xl shadow-gray-900">
@@ -31,6 +32,7 @@ const BestFit = () => {
               width={20}
               height={20}
               className="w-full h-full"
+              alt="sidebar"
             />
           </div>
           <p className="font-semibold text-center text-white">Fully Responsive</p>
@@ -46,6 +48,7 @@ const BestFit = () => {
               width={20}
               height={20}
               className="w-full h-full"
+              alt="box"
             />
           </div>
           <p className="font-semibold text-center text-white">Multiple Layouts</p>
@@ -61,6 +64,7 @@ const BestFit = () => {
               width={20}
               height={20}
               className="w-full h-full"
+              alt="spaceship"
             />
           </div>
           <p className="font-semibold text-center text-white">Faster Loading</p>
@@ -78,6 +82,7 @@ const BestFit = () => {
               width={20}
               height={20}
               className="w-full h-full"
+              alt="chat"
             />
           </div>
           <p className="font-semibold text-center text-white">Super Support</p>
@@ -93,6 +98,7 @@ const BestFit = () => {
               width={20}
               height={20}
               className="w-full h-full"
+              alt="path"
             />
           </div>
           <p className="font-semibold text-center text-white">Rich Documentation</p>
@@ -108,6 +114,7 @@ const BestFit = () => {
               width={20}
               height={20}
               className="w-full h-full"
+              alt="loop"
             />
           </div>
           <p className="font-semibold text-center text-white">Lifetime Updates</p>
