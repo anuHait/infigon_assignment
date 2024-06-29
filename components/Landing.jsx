@@ -16,7 +16,7 @@ const Landing = () => {
       <div className="bg-[#051139] w-full h-full flex flex-col items-center justify-center p-10 gap-6 relative">
         <div className="absolute -z-3 left-2 top-10 rounded-[100%] w-[250px] h-[200px] bg-[#1E50FF] blur-[100px] -translate-y-8"></div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col z-5">
           <div className="text-[28px] md:text-[36px] lg:text-[48px] font-semibold font-clash text-center text-white">
             Interactive AI For A
           </div>
@@ -29,8 +29,8 @@ const Landing = () => {
           </div>
         </div>
         <div className="flex flex-col">
-          <p className="text-gray-200 font-light text-sm">Elevate your advertising game with creatives that consistently</p>
-          <p className="text-gray-200 font-light text-sm">outperform your competitors, setting your brand apart.</p>
+          <p className="text-gray-200 text-xs sm:text-sm font-light ">Elevate your advertising game with creatives that consistently</p>
+          <p className="text-gray-200 text-xs sm:text-sm font-light ">outperform your competitors, setting your brand apart.</p>
         </div>
         <div className="flex flex-row gap-4 items-center justify-center">
           <button className="text-white font-semibold bg-[#6A65FF] rounded-lg p-2">Join the Waitlist</button>
@@ -57,19 +57,19 @@ const Landing = () => {
         
         className="w-full items-center justify-center"
       >
-        <SwiperSlide className="font-clash text-lg md:text-2xl">
+        <SwiperSlide className="font-clash text-md sm:text-lg md:text-2xl">
         Join the waitlist
         </SwiperSlide>
-        <SwiperSlide className="font-clash text-lg md:text-2xl">
+        <SwiperSlide className="font-clash text-md sm:text-lg md:text-2xl">
         Join the waitlist
         </SwiperSlide>
-        <SwiperSlide className="font-clash text-lg md:text-2xl">
+        <SwiperSlide className="font-clash text-md sm:text-lg md:text-2xl">
         Join the waitlist
         </SwiperSlide>
-        <SwiperSlide className="font-clash text-lg md:text-2xl">
+        <SwiperSlide className="font-clash text-md sm:text-lg md:text-2xl">
         Join the waitlist
         </SwiperSlide>
-        <SwiperSlide className="font-clash text-lg md:text-2xl">
+        <SwiperSlide className="font-clash text-md sm:text-lg md:text-2xl">
         Join the waitlist
         </SwiperSlide>
         </Swiper>
