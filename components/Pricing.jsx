@@ -38,39 +38,39 @@ function Pricing() {
             <div className="h-0.5  bg-gray-200 rounded w-full "></div>
           </div>
           <div className="flex flex-col gap-2 w-full items-start justify-start">
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               No Discount
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Basic Support
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Ads Banner Free
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Design Style{" "}
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Component Library
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               All limited links
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Own analytics platform
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Chat support
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Optimize hashtags
             </div>
@@ -95,39 +95,39 @@ function Pricing() {
             <div className="h-0.5  bg-gray-200 rounded w-full "></div>
           </div>
           <div className="flex flex-col gap-2 w-full items-start justify-start">
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               No Discount
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Basic Support
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Ads Banner Free
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Design Style{" "}
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Component Library
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               All limited links
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Own analytics platform
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Chat support
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Optimize hashtags
             </div>
@@ -155,39 +155,39 @@ function Pricing() {
             <div className="h-0.5  bg-gray-200 rounded w-full "></div>
           </div>
           <div className="flex flex-col gap-2 w-full items-start justify-start">
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               No Discount
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Basic Support
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Ads Banner Free
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Design Style{" "}
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Component Library
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               All limited links
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Own analytics platform
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Chat support
             </div>
-            <div className="flex flex-row gap-1 items-center justify-start text-sm">
+            <div className="flex flex-row gap-1 items-center justify-start text-sm text-gray-100">
               <TiTick className="text-white m-3 rounded-full bg-blue-400 text-xl" />
               Optimize hashtags
             </div>

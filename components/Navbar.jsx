@@ -41,12 +41,13 @@ const Navbar = () => {
 
       {isOpen && (
         <div className='bg-indigo-950 md:hidden fixed top-0 left-0 w-full h-full flex flex-col items-center justify-center z-40'>
-          <div className="flex flex-col gap-4 items-center justify-center text-white font-semibold">
-            <p>Homepage</p>
-            <p>Features</p>
-            <p>Use Cases</p>
-            <p>Pricing</p>
-            <p>Blog</p>
+          <div className="flex flex-col gap-10 items-center justify-start text-white font-semibold">
+            <p className='text-xl'>Homepage</p>
+            <p className='text-xl'>Features</p>
+            <p className='text-xl'>Use Cases</p>
+            <p className='text-xl'>Pricing</p>
+            <p className='text-xl'>Blog</p>
+            
           </div>
         </div>
       )}

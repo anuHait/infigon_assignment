@@ -13,7 +13,7 @@ function Testimonial() {
     <div className="absolute -z-1  right-12 top-10 rounded-[100%] w-[300px] h-[300px]  bg-gray-400 blur-[160px]"></div>
 
 
-      <div className="text-[20px] md:text-[24px] lg:text-[32px] font-semibold font-clash mt-10">
+      <div className="text-[20px] md:text-[24px] lg:text-[32px] font-semibold font-clash text-white mt-10">
         What people are saying about Circle
       </div>
 
